@@ -4,12 +4,12 @@ microdot-phat
 Overview
 
 ## Description
-This library is IP Viewer for Pimoroni Dot pHAT.
+This library is IP Viewer for Pimoroni Dot pHAT.  
 https://learn.pimoroni.com/tutorial/sandyj/assembling-micro-dot-phat
 
 ## Requirement
-Python 2.x or 3.x
-netifaces package(https://pypi.python.org/pypi/netifaces)
+Python 2.x or 3.x  
+netifaces package https://pypi.python.org/pypi/netifaces
 
 ## Usage
 $ python print_ip_addr.py

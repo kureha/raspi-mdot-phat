@@ -1,0 +1,17 @@
+[Unit]
+Description=Pimoroni IP Address Display
+After=syslog.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/pimoroni/raspi-mdot-phat/library
+ExecStart=/usr/bin/python print_ipaddr.py
+ExecStopPost=/usr/bin/python clear_ipaddr.py
+TimeoutStopSec=5
+StandardOutput=journal
+StandardError=journal
+User=pi
+Group=pi
+
+[Install]
+WantedBy = multi-user.target

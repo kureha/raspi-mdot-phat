@@ -12,7 +12,9 @@ Python 2.x or 3.x
 netifaces package https://pypi.python.org/pypi/netifaces
 
 ## Usage
-$ python print_ip_addr.py
+$ python print_ip_addr.py  
+or  
+using systemd/printipaddr.service
 
 ## Licence
 
